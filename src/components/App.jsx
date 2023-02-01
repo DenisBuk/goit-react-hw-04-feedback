@@ -38,7 +38,7 @@ export const App = () => {
   };
 
 
-  const options = [good, neutral, bad];
+  const options = ['good', 'neutral', 'bad'];
     return (
       <>
       <Section Please leave feedback>
