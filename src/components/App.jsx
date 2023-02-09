@@ -10,9 +10,8 @@ export const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const updateFeedback = event => {
-    const { name } = event.target;
-    switch (name) {
+  const updateFeedback = key => {
+    switch (key) {
       case 'good':
         setGood(good + 1);
         break;
